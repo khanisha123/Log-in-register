@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header .titleFacbook h2{
+    color: white;
+    font-size: 47px;
+    margin-left: 200px;
+    padding-top: 18px;
+    background-position: 0 0;
+}
+header{
+    background-color: #0000CD;
+    border-bottom: 1px solid black;
+    height: 82px;
+    min-width: 980px;
+    display: flex;
+}
+header .createAccount .butonCreate{
+    font-size: 14px;
+    border-color: #42b72a;
+    background-color: #42b72a;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+body {
+    background-color: #e9ebee;
+}
+main  .borderforSign{
+
+   width: 620px; 
+   height: 290px;
+   border-radius: 7px;
+   background-color: white;
+   margin-top: 80px;
+   border: 1px solid #dddfe2;
+   
+}
+main .borderforSign .titleSign {
+    font-family: inherit;
+    margin-top: 22px;
+}
+.emailAndPassword{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.form-control{
+    margin-top: 10px;
+}
+.loginButton button{
+    width: 320px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius:5px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.underLogInButton{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.notNow{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 60px;
+}
+footer .footer1 span{
+    margin-left: 15px;
+    color: #777;
+}
+
+.footer2{
+    margin-top: 7px;
+}
+footer .footer2 span{
+    margin-left: 15px;
+    color: #777;
+}
+
+/*DropDown */
+
+.dropbtn {
+    /* background-color: #3498DB; */
+    color: #777;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  .footer3 {
+   margin-top: 15px;
+   margin-left: 38%;
+  }
+  .footerSideColor{
+      background-color: white;
+  }
+   
+

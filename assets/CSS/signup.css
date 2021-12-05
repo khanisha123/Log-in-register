@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+body{
+    background-color: #e9ebee;
+}
+main .signUpBorder{
+    width: 350px;
+    height: 620px;
+    background-color: white;
+    border: 1px solid #777;
+    margin-top: 35px;
+}
+img{
+    width: 175px;
+    height: 51px;
+    margin-top: 30px;
+}
+.textUnderImg span{
+    color: #777;
+    font-size: 20px;
+}
+.buttonF{
+    width: 268px;
+}
+.buttonFacbook{
+    margin-top: 10px;
+}
+.lineandOr{
+    margin-top: 20px;
+    margin-bottom: 23px;
+    color: #777;
+}
+.lineandOr .line{
+    border-top:1px solid gray;
+    width: 110px;
+    display: inline-block;
+    margin-bottom: 5px; 
+}
+.formSign{
+    width: 268px;
+}
+.form-control{
+    margin-bottom: 13px;
+}
+.underForm{
+    font-size: small;
+    color: #777;
+    margin-top: 23px;
+}
+.logInSideBorder{
+    width: 350px;
+    height: 70px;
+    border: 1px #777 solid;
+    background-color: white;
+    margin-top: 8px;
+    padding-top: 20px;
+}
+ a{
+    text-decoration: none;
+}
+
+.textApp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.appLogo a img{
+    height: 50px;
+    width: 120px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+footer{
+    margin-top: 60px;
+    
+}
+footer .footer1 span{
+    margin-left: 15px;
+    color: #777;
+}
+/*DropDown */
+
+.dropbtn {
+    /* background-color: #3498DB; */
+    color: #777;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .footer3 {
+    margin-top: 15px;
+    margin-left: 38%;
+   }
